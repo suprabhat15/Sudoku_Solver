@@ -1,6 +1,7 @@
 # sudoku_solver
 This C++ code can solve 9x9 sudoku puzzles using Backtracking Algorithm!
 
+![Screenshot from 2019-05-07 21-40-20](https://user-images.githubusercontent.com/36446402/57315344-04c65400-7111-11e9-939c-fce34eb7ceea.png)
 
 
 ## **Backtracking Algorithm**
