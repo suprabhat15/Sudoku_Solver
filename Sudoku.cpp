@@ -77,9 +77,9 @@ void print_sudoku(int sudoku[9][9])
     {
         for(int j=0;j<9;j++)
         {
-            cout<<sudoku[i][j]<<" ";
+            cout<<sudoku[i][j]<<"  ";
         }
-        cout<<endl;
+        cout<<endl<<endl;
     }
 }
 
@@ -96,12 +96,11 @@ int main()
     {0, 0, 0, 0, 0, 0, 0, 7, 4},
     {0, 0, 5, 2, 0, 6, 3, 0, 0}};
 
-    print_sudoku(sudoku);
-    cout<<"-----------------"<<endl;
+    cout<<"-------------------------"<<endl;
     if (solver(sudoku) == true)
     {
-        cout<<"     SOLVED!     "<<endl;
-        cout<<"-----------------"<<endl;
+        cout<<"         SOLVED!         "<<endl;
+        cout<<"-------------------------"<<endl;
         print_sudoku(sudoku);
     }
     else
